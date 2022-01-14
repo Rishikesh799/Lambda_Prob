@@ -160,5 +160,24 @@ print(sum(list(filter(lambda x:x<0,a))))
 48
 -32
 """
+#22.Write a Python program to find the list with maximum and minimum length using lambda.
 
+a=[[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]]
+x=list(map(lambda x:(x,len(x)),a))
+print(max(x))
+([13, 15, 17], 3)
+-------------------------------------------------------------------------------------------------------
+#23.Write a Python program to sort a given list of lists by length and value using lambda.
+
+a=[[2], [0], [1, 3], [0, 7], [9, 11], [13, 15, 17]]
+x=sorted(a,key=lambda x:(len(x),x))
+print(x)
+[[0], [2], [0, 7], [1, 3], [9, 11], [13, 15, 17]]
+------------------------------------------------------------------------------------------------------------------------
+#24.Write a Python program to find the maximum value in a given heterogeneous list using lambda.
+
+a=['Python', 3, 2, 4, 5, 'version']
+x=list(filter(lambda x: type(x) == int,a))
+print(max(x))==5
+"""
 
