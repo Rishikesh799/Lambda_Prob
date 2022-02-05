@@ -1,4 +1,4 @@
-"""-----------------------------LAMBDA PROBLEM---------------------------------------------------------
+"""-----------------------------LAMBDA PROBLEM------------------------------------------------------------
 #1. Write a Python program to create a lambda function that adds 15 to a given number passed in as an argument, also create a lambda function that multiplies argument x with argument y and print the result
 
 x= lambda i:(i+15)
@@ -7,7 +7,7 @@ y=lambda j,k:j*k
 print(y(12,4))==48
 ------------------------------------------------------------------------------------------------------------
 #2. Write a Python program to create a function that takes one argument,
-#and that argument will be multiplied with an unknown given number.
+#and that argument will be multiplied with an unknown given nnumber.
 
 def num(n):
     return lambda x:x*n
