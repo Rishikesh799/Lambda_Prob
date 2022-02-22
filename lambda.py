@@ -174,7 +174,7 @@ x=sorted(a,key=lambda x:(len(x),x))
 print(x)
 [[0], [2], [0, 7], [1, 3], [9, 11], [13, 15, 17]]
 ------------------------------------------------------------------------------------------------------------------------
-#24.Write a Python program to find the maximum value in a given heterogeneous list using lambda.
+#24.Write a Python program to find the maximum value in a given heterogeneous list using lambda function.
 
 a=['Python', 3, 2, 4, 5, 'version']
 x=list(filter(lambda x: type(x) == int,a))
