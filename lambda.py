@@ -179,5 +179,5 @@ print(x)
 a=['Python', 3, 2, 4, 5, 'version']
 x=list(filter(lambda x: type(x) == int,a))
 print(max(x))==5
-"""
+
 
